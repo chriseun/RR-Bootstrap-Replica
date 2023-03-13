@@ -1,9 +1,14 @@
-import './App.css';
+import Listings from './components/Listings';
+import Background from './components/Background';
+import NavBar from './components/Navbar';
 
-function App() {
+const App = () => {
+
   return (
     <div className="App">
-      <h1>Hello World</h1>
+      <NavBar />
+      <Background />
+      <Listings />
     </div>
   );
 }
